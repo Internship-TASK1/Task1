@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9061B385-7742-4844-83E0-C708DC5EABF7}|WebAPI\\WebAPI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9061B385-7742-4844-83E0-C708DC5EABF7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9061B385-7742-4844-83E0-C708DC5EABF7}|WebAPI\\WebAPI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9061B385-7742-4844-83E0-C708DC5EABF7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +78,150 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\OrderRepository.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:13:17.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:12:26.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:49:36.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\MyDbContext.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\MyDbContext.cs",
+              "RelativeToolTip": "DAL\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:44:48.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Product.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\Product.cs",
+              "RelativeToolTip": "DAL\\Entities\\Product.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:43:24.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Order.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\Order.cs",
+              "RelativeToolTip": "DAL\\Entities\\Order.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:42:22.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\OrderDetail.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\OrderDetail.cs",
+              "RelativeToolTip": "DAL\\Entities\\OrderDetail.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA+wDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:41:36.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Category.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\Category.cs",
+              "RelativeToolTip": "DAL\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:38:25.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\User.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\User.cs",
+              "RelativeToolTip": "DAL\\Entities\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwB4AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:37:16.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-16T10:31:33.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DAL.csproj",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\DAL.csproj",
+              "RelativeToolTip": "DAL\\DAL.csproj",
+              "ViewState": "AgIAAA8AAABAzXTtahwqwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-16T03:59:56.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Class1.cs",
               "RelativeDocumentMoniker": "DAL\\Class1.cs",
@@ -50,20 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DAL.csproj",
-              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\DAL.csproj",
-              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
-              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\DAL.csproj",
-              "RelativeToolTip": "DAL\\DAL.csproj",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-16T03:59:56.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\Common\\Class1.cs",
               "RelativeDocumentMoniker": "Common\\Class1.cs",
@@ -75,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\BLL\\Class1.cs",
               "RelativeDocumentMoniker": "BLL\\Class1.cs",
