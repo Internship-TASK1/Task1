@@ -30,3 +30,4 @@ D:\Github\Phát triển PM\Task1\WebAPI\WebAPI\obj\Debug\net8.0\refint\WebAPI.dl
 D:\Github\Phát triển PM\Task1\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.pdb
 D:\Github\Phát triển PM\Task1\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
 D:\Github\Phát triển PM\Task1\WebAPI\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
+D:\Github\Phát triển PM\Task1\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json
