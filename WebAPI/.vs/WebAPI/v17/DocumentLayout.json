@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9061B385-7742-4844-83E0-C708DC5EABF7}|WebAPI\\WebAPI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9061B385-7742-4844-83E0-C708DC5EABF7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9061B385-7742-4844-83E0-C708DC5EABF7}|WebAPI\\WebAPI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9061B385-7742-4844-83E0-C708DC5EABF7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{274E0FD2-70BC-49B6-A49C-91ADA9429189}|BLL\\BLL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{274E0FD2-70BC-49B6-A49C-91ADA9429189}|BLL\\BLL.csproj|solutionrelative:bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{274E0FD2-70BC-49B6-A49C-91ADA9429189}|BLL\\BLL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\bll\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{274E0FD2-70BC-49B6-A49C-91ADA9429189}|BLL\\BLL.csproj|solutionrelative:bll\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9061B385-7742-4844-83E0-C708DC5EABF7}|WebAPI\\WebAPI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9061B385-7742-4844-83E0-C708DC5EABF7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\task1\\webapi\\dal\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +122,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\WebAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\WebAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T15:57:27.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\BLL\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\BLL\\Services\\ProductService.cs",
+              "RelativeToolTip": "BLL\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T15:54:56.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\BLL\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\IProductService.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\BLL\\Services\\IProductService.cs",
+              "RelativeToolTip": "BLL\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T15:53:31.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T15:52:20.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\IProductRepository.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T15:50:25.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\WebAPI\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\CategoryController.cs",
@@ -110,12 +195,11 @@
               "RelativeToolTip": "WebAPI\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T08:01:44.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T08:01:44.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\BLL\\Services\\ICategoryService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\ICategoryService.cs",
@@ -127,20 +211,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:49:36.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repositories\\CategoryRepository.cs",
               "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Repositories\\CategoryRepository.cs",
               "RelativeToolTip": "DAL\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T07:56:07.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\BLL\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\CategoryService.cs",
@@ -148,12 +245,11 @@
               "RelativeToolTip": "BLL\\Services\\CategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T07:54:49.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T07:54:49.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Repositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repositories\\ICategoryRepository.cs",
@@ -161,25 +257,11 @@
               "RelativeToolTip": "DAL\\Repositories\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T07:53:34.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T07:53:34.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
-              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\WebAPI\\Program.cs",
-              "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T10:49:36.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "DAL\\Entities\\Category.cs",
@@ -187,12 +269,11 @@
               "RelativeToolTip": "DAL\\Entities\\Category.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAA6wCgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T10:38:25.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T10:38:25.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repositories\\OrderRepository.cs",
@@ -200,12 +281,11 @@
               "RelativeToolTip": "DAL\\Repositories\\OrderRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T11:13:17.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T11:13:17.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "MyDbContext.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\MyDbContext.cs",
               "RelativeDocumentMoniker": "DAL\\MyDbContext.cs",
@@ -213,12 +293,11 @@
               "RelativeToolTip": "DAL\\MyDbContext.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAADwvygAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T10:44:48.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T10:44:48.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "20240816113219_InitialCreate.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Migrations\\20240816113219_InitialCreate.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\20240816113219_InitialCreate.cs",
@@ -230,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Repositories\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repositories\\IOrderRepository.cs",
@@ -242,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "DAL\\Entities\\Product.cs",
@@ -254,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "DAL\\Entities\\Order.cs",
@@ -266,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\OrderDetail.cs",
               "RelativeDocumentMoniker": "DAL\\Entities\\OrderDetail.cs",
@@ -278,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Entities\\User.cs",
               "RelativeDocumentMoniker": "DAL\\Entities\\User.cs",
@@ -290,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
@@ -302,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "DAL.csproj",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "DAL\\DAL.csproj",
@@ -314,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\DAL\\Class1.cs",
               "RelativeDocumentMoniker": "DAL\\Class1.cs",
@@ -326,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\Common\\Class1.cs",
               "RelativeDocumentMoniker": "Common\\Class1.cs",
@@ -338,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\Task1\\WebAPI\\BLL\\Class1.cs",
               "RelativeDocumentMoniker": "BLL\\Class1.cs",
