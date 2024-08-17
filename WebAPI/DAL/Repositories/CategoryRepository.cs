@@ -10,43 +10,106 @@ namespace DAL.Repositories
 {
     public class CategoryRepository : ICategoryRepository
     {
-        private readonly DbContext _context;
+        private readonly MyDbContext _context;
 
-        public CategoryRepository(DbContext context)
+        public CategoryRepository(MyDbContext context)
         {
             _context = context;
         }
 
         public async Task<IEnumerable<Category>> GetAllCategoriesAsync()
         {
-            return await _context.Set<Category>().ToListAsync();
+            try
+            {
+                return await _context.Categories
+                    .Select(c => new Category
+                    {
+                        Id = c.Id,
+                        Name = c.Name ?? string.Empty,
+                        Description = c.Description ?? string.Empty,
+                        CreatedBy = c.CreatedBy ?? string.Empty,
+                        LastUpdatedBy = c.LastUpdatedBy ?? string.Empty,
+                        DeletedBy = c.DeletedBy ?? string.Empty,
+                        CreatedTime = c.CreatedTime,
+                        LastUpdatedTime = c.LastUpdatedTime,
+                        DeletedTime = c.DeletedTime
+                    })
+                    .ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"An error occurred while retrieving categories: {ex.Message}");
+                throw;
+            }
         }
 
         public async Task<Category?> GetCategoryByIdAsync(Guid id)
         {
-            return await _context.Set<Category>().FindAsync(id);
+            try
+            {
+                return await _context.Categories.FindAsync(id);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception (consider using a logging framework)
+                Console.WriteLine($"An error occurred while retrieving the category: {ex.Message}");
+                throw;
+            }
         }
 
         public async Task AddCategoryAsync(Category category)
         {
-            await _context.Set<Category>().AddAsync(category);
-            await _context.SaveChangesAsync();
+            if (category == null) throw new ArgumentNullException(nameof(category));
+
+            try
+            {
+                await _context.Categories.AddAsync(category);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                // Log the exception (consider using a logging framework)
+                Console.WriteLine($"An error occurred while adding the category: {ex.Message}");
+                throw;
+            }
         }
 
         public async Task UpdateCategoryAsync(Category category)
         {
-            _context.Set<Category>().Update(category);
-            await _context.SaveChangesAsync();
+            if (category == null) throw new ArgumentNullException(nameof(category));
+
+            try
+            {
+                _context.Categories.Update(category);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                // Log the exception (consider using a logging framework)
+                Console.WriteLine($"An error occurred while updating the category: {ex.Message}");
+                throw;
+            }
         }
 
         public async Task DeleteCategoryAsync(Guid id)
         {
-            var category = await _context.Set<Category>().FindAsync(id);
-            if (category != null)
+            try
             {
-                _context.Set<Category>().Remove(category);
-                await _context.SaveChangesAsync();
+                var category = await _context.Categories.FindAsync(id);
+                if (category != null)
+                {
+                    _context.Categories.Remove(category);
+                    await _context.SaveChangesAsync();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception (consider using a logging framework)
+                Console.WriteLine($"An error occurred while deleting the category: {ex.Message}");
+                throw;
             }
         }
+
     }
 }

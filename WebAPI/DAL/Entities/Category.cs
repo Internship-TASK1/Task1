@@ -17,31 +17,31 @@ namespace DAL.Entities
 
         [Required]
         [MaxLength(100)]
-        public string Name { get; set; }
+        public string? Name { get; set; } // Nullable
 
         [MaxLength(500)]
-        public string Description { get; set; }
+        public string? Description { get; set; } // Nullable
 
-        public string CreatedBy { get; set; }
+        public string? CreatedBy { get; set; } // Nullable
 
-        public string LastUpdatedBy { get; set; }
+        public string? LastUpdatedBy { get; set; } // Nullable
 
-        public string DeletedBy { get; set; }
+        public string? DeletedBy { get; set; } // Nullable
 
         public DateTimeOffset CreatedTime { get; set; }
 
         public DateTimeOffset LastUpdatedTime { get; set; }
 
-        public DateTimeOffset? DeletedTime { get; set; }
+        public DateTimeOffset? DeletedTime { get; set; } // Nullable
 
-        // Constructor to initialize non-nullable properties
+        // Constructor to initialize nullable properties
         public Category()
         {
-            Name = string.Empty;
-            Description = string.Empty;
-            CreatedBy = string.Empty;
-            LastUpdatedBy = string.Empty;
-            DeletedBy = string.Empty;
+            Name = null;
+            Description = null;
+            CreatedBy = null;
+            LastUpdatedBy = null;
+            DeletedBy = null;
         }
     }
 }
