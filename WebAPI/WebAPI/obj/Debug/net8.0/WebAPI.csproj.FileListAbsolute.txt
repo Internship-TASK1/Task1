@@ -284,3 +284,11 @@ C:\Users\ADMIN\Desktop\TASK\WebAPI\WebAPI\obj\Debug\net8.0\refint\WebAPI.dll
 C:\Users\ADMIN\Desktop\TASK\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.pdb
 C:\Users\ADMIN\Desktop\TASK\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\TASK\WebAPI\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
+D:\Github\Phát triển PM\Task1\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Github\Phát triển PM\Task1\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Github\Phát triển PM\Task1\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Github\Phát triển PM\Task1\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Github\Phát triển PM\Task1\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Github\Phát triển PM\Task1\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Github\Phát triển PM\Task1\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Github\Phát triển PM\Task1\WebAPI\WebAPI\bin\Debug\net8.0\jwtsettings.json

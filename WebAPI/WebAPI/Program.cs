@@ -17,7 +17,6 @@ builder.Services.AddDbContext<MyDbContext>(options =>
 // Đăng ký các dịch vụ khác
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
-//Order
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 
@@ -25,6 +24,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Cấu hình Identity
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
     options.Password.RequiredLength = 6;
@@ -36,8 +36,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
     .AddEntityFrameworkStores<MyDbContext>()
     .AddDefaultTokenProviders();
 
-
-
+// Cấu hình Authentication
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -46,29 +45,39 @@ builder.Services.AddAuthentication(options =>
 })
 .AddJwtBearer(options =>
 {
+    var issuer = builder.Configuration["Jwt:Issuer"];
+    var key = builder.Configuration["Jwt:Key"];
+
+    if (string.IsNullOrEmpty(issuer) || string.IsNullOrEmpty(key))
+    {
+        throw new ArgumentNullException("Issuer or Key is missing in configuration.");
+    }
+
     options.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuer = true,
         ValidateAudience = false,
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
-        ValidIssuer = builder.Configuration["Jwt:Issuer"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
+        ValidIssuer = issuer,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key))
     };
 });
 
+// Cấu hình Authorization
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AdminPolicy", policy => policy.RequireRole("Admin"));
     options.AddPolicy("UserPolicy", policy => policy.RequireRole("User"));
 });
 
+// Cấu hình Logging
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
-
 var app = builder.Build();
 
+// Cấu hình các middleware
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
