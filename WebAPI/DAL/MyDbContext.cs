@@ -1,7 +1,11 @@
+<<<<<<< Updated upstream
+﻿using DAL.Entities;
+=======
 using DAL.Entities;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+>>>>>>> Stashed changes
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -11,10 +15,9 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class MyDbContext : IdentityDbContext<IdentityUser>
+    public class MyDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
-        public DbSet<UserRole> UserRoles { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Order> Orders { get; set; }
@@ -32,11 +35,7 @@ namespace DAL
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(_connectionString, options =>
-                {
-                    options.MigrationsAssembly("DAL");
-                    options.CommandTimeout(60); 
-                });
+                optionsBuilder.UseSqlServer(_connectionString);
             }
         }
 
