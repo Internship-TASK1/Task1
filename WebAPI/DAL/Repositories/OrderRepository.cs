@@ -106,7 +106,6 @@ namespace DAL.Repositories
             {
                 //_order.CreatedBy = Mã người dùng đang đăng nhập
                 //
-                _order.CreatedTime = DateTimeOffset.Now; //tự động gán thời gian hiện tại cho CreatedTime
                 await _context.Orders.AddAsync( _order);
                 await _context.SaveChangesAsync();
 
