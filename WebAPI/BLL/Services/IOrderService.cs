@@ -1,22 +1,25 @@
 ﻿using DAL.Entities;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace BLL.Services
 {
     public interface IOrderService
     {
-        // lấy ra 1 order = id order
+        // Get an order by its ID
         Task<Order?> GetOrderByIdAsync(Guid orderId);
 
-        // lấy ra tất cả order
+        // Get all orders
         Task<IEnumerable<Order>> GetAllOrders();
 
-        // xóa 1 order với id
+        // Delete an order by its ID
         Task<bool> DeleteOrder(Guid orderId);
 
-        // cập nhật 1 order với id  
-        Task<Order?> UpdateOrder(Order _order);
+        // Update an order
+        Task<Order?> UpdateOrder(Order order);
 
-        //tạo mới 1 order truyền vào order với thông tin như: UserID
-        Task<Order?> InserOrder(Guid idUser);
+        // Insert a new order
+        Task<Order?> InsertOrder(Guid idUser);
     }
 }

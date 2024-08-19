@@ -41,10 +41,16 @@ namespace WebAPI.Controllers
         [HttpPost]
         public async Task<ActionResult> AddOrder(Guid idUser)
         {
-            Order? order = await _orderService.InserOrder(idUser);
+            Order? order = await _orderService.InsertOrder(idUser);
+
+            if (order == null)
+            {
+                return BadRequest();
+            }
 
             return Ok(order);
         }
+
 
         //Xóa 1 order
         [HttpDelete("{id}")]

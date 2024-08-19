@@ -57,7 +57,7 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "DAL.Entities.Register",
+        "Type": "Common.DTOs.RegisterDto",
         "IsRequired": true
       }
     ],
@@ -383,16 +383,6 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebAPI.Controllers.UserController",
-    "Method": "Get",
-    "RelativePath": "api/User",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": []
   },
   {
