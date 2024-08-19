@@ -41,7 +41,7 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "DAL.Entities.Login",
+        "Type": "Common.DTOs.LoginModel",
         "IsRequired": true
       }
     ],

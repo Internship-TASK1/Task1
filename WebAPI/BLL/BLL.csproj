@@ -22,4 +22,12 @@
     <ProjectReference Include="..\DAL\DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\Github\Phát triển PM\Task1\WebAPI\BLL\Services\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\Github\Phát triển PM\Task1\WebAPI\BLL\Services\.editorconfig" />
+  </ItemGroup>
+
 </Project>
