@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
     [Table("Products")]
-
     public class Product
     {
         [Key]
@@ -46,6 +40,9 @@ namespace DAL.Entities
             CreatedBy = string.Empty;
             LastUpdatedBy = string.Empty;
             DeletedBy = string.Empty;
+
+            // Assign a new GUID as the ID
+            Id = Guid.NewGuid();
         }
     }
 }

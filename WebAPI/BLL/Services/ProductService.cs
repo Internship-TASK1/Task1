@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using DAL.Entities;
 using DAL.Repositories;
+
 namespace BLL.Services
 {
     public class ProductService : IProductService
@@ -21,28 +20,84 @@ namespace BLL.Services
             return await _productRepository.GetAllAsync();
         }
 
-        public async Task<Product?> GetProductByIdAsync(Guid id)
+        public async Task<Product> GetProductByIdAsync(Guid id)
         {
             return await _productRepository.GetByIdAsync(id);
         }
 
         public async Task AddProductAsync(Product product)
         {
-            await _productRepository.AddAsync(product);
+            if (product == null) throw new ArgumentNullException(nameof(product));
+            if (product.Id != Guid.Empty) throw new ArgumentException("Id should not be provided when adding a new product.");
+
+            try
+            {
+                if (product.CategoryId == null || product.CategoryId == Guid.Empty)
+                {
+                    throw new ArgumentException("CategoryId is required.");
+                }
+
+                var categoryExists = await _productRepository.CheckCategoryExistsAsync(product.CategoryId.Value);
+                if (!categoryExists)
+                {
+                    throw new ArgumentException("Category does not exist.");
+                }
+
+                product.Id = Guid.NewGuid(); // Automatically set a new Id
+                await _productRepository.AddAsync(product);
+            }
+            catch (Exception ex)
+            {
+                // Log error if needed
+                throw;
+            }
         }
 
         public async Task UpdateProductAsync(Product product)
         {
-            await _productRepository.UpdateAsync(product);
+            if (product == null) throw new ArgumentNullException(nameof(product));
+            if (product.Id == Guid.Empty) throw new ArgumentException("Id is required when updating a product.");
+
+            try
+            {
+                if (product.CategoryId == null || product.CategoryId == Guid.Empty)
+                {
+                    throw new ArgumentException("CategoryId is required.");
+                }
+
+                var categoryExists = await _productRepository.CheckCategoryExistsAsync(product.CategoryId.Value);
+                if (!categoryExists)
+                {
+                    throw new ArgumentException("Category does not exist.");
+                }
+
+                await _productRepository.UpdateAsync(product);
+            }
+            catch (Exception ex)
+            {
+                // Log error if needed
+                throw;
+            }
         }
 
         public async Task DeleteProductAsync(Guid id)
         {
-            var product = await _productRepository.GetByIdAsync(id);
-            if (product != null)
+            if (id == Guid.Empty) throw new ArgumentException("Id is required when deleting a product.");
+
+            try
             {
-                await _productRepository.DeleteAsync(product);
+                await _productRepository.DeleteAsync(id);
             }
+            catch (Exception ex)
+            {
+                // Log error if needed
+                throw;
+            }
+        }
+
+        public async Task<Category> GetCategoryByIdAsync(Guid id)
+        {
+            return await _productRepository.GetCategoryByIdAsync(id);
         }
     }
 }

@@ -28,8 +28,12 @@ namespace BLL.Services
 
         public async Task AddCategoryAsync(Category category)
         {
+            if (category == null) throw new ArgumentNullException(nameof(category));
+            if (category.Id != Guid.Empty) throw new ArgumentException("You don't need enter ID.");
+
             await _categoryRepository.AddCategoryAsync(category);
         }
+
 
         public async Task UpdateCategoryAsync(Category category)
         {

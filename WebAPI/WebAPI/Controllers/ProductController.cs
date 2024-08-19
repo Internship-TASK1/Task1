@@ -1,4 +1,7 @@
-﻿using BLL.Services;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using BLL.Services;
 using DAL.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -37,6 +40,8 @@ namespace WebAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Product>> CreateProduct(Product product)
         {
+            // Ensure Id is not provided in the request
+            product.Id = Guid.Empty;
             await _productService.AddProductAsync(product);
             return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
         }
