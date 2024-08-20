@@ -39,9 +39,9 @@ namespace WebAPI.Controllers
 
         //tạo mới 1 order
         [HttpPost]
-        public async Task<ActionResult> AddOrder(Guid idUser)
+        public async Task<ActionResult> AddOrder()
         {
-            Order? order = await _orderService.InsertOrder(idUser);
+            Order? order = await _orderService.InsertOrder();
 
             if (order == null)
             {

@@ -1,4 +1,5 @@
 ﻿using BLL.Services;
+using Common.DTOs;
 using DAL.Entities;
 using DAL.Repositories;
 using System;
@@ -36,12 +37,17 @@ namespace BLL.Services
             return await _orderRepository.UpdateOrderAsync(order);
         }
 
-        public async Task<Order?> InsertOrder(Guid idUser)
+        public async Task<Order?> InsertOrder()
         {
+            string id = UserTemp.Id;
+            string usName = UserTemp.UserName;
+
             var newOrder = new Order
             {
                 Id = Guid.NewGuid(),
-                CreatedByUserId = idUser.ToString(),
+                CreatedByUserId = id,
+                ProcessedByUserId = id,
+                CreatedBy = usName,
                 OrderDate = DateTimeOffset.UtcNow,
                 CreatedTime = DateTimeOffset.UtcNow,
                 LastUpdatedTime = DateTimeOffset.UtcNow

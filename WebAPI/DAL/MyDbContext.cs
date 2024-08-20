@@ -26,6 +26,10 @@ namespace DAL
                 .Property(o => o.UnitPrice)
                 .HasColumnType("decimal(18,2)");
 
+            modelBuilder.Entity<Product>()
+                .Property(o => o.Price)
+                .HasColumnType("decimal(18,2)");
+
             // Configure relationships and constraints
             modelBuilder.Entity<Order>()
                 .HasOne(o => o.CreatedByUser)

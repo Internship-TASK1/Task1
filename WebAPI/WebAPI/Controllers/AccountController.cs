@@ -60,10 +60,10 @@ namespace WebAPI.Controllers
                 var userRoles = await _userManager.GetRolesAsync(user);
 
                 var authClaims = new List<Claim>
-        {
-            new Claim(JwtRegisteredClaimNames.Sub, user.UserName!),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-        };
+                {
+                    new Claim(JwtRegisteredClaimNames.Sub, user.UserName!),
+                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                };
 
                 authClaims.AddRange(userRoles.Select(role => new Claim(ClaimTypes.Role, role)));
 
@@ -76,6 +76,11 @@ namespace WebAPI.Controllers
 
                 var tokenHandler = new JwtSecurityTokenHandler();
                 var tokenString = tokenHandler.WriteToken(token);
+
+                // Lưu trữ IdUser ở Common
+                UserTemp.Id = user.Id;
+                UserTemp.UserName = user.UserName;
+
 
                 return Ok(new
                 {

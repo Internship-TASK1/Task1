@@ -20,6 +20,6 @@ namespace BLL.Services
         Task<Order?> UpdateOrder(Order order);
 
         // Insert a new order
-        Task<Order?> InsertOrder(Guid idUser);
+        Task<Order?> InsertOrder();
     }
 }
