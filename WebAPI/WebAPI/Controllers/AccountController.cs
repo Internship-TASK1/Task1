@@ -77,17 +77,17 @@ namespace WebAPI.Controllers
                 var tokenHandler = new JwtSecurityTokenHandler();
                 var tokenString = tokenHandler.WriteToken(token);
 
-                // Trả về token cùng với thông báo thành công
                 return Ok(new
                 {
                     message = "Login successful",
-                    token = tokenString
+                    token = tokenString,
+                    roles = userRoles // Thêm quyền vào phản hồi
                 });
             }
 
-            // Trả về thông báo lỗi khi thông tin đăng nhập không chính xác
             return Unauthorized(new { message = "Invalid username or password." });
         }
+
 
 
         [HttpPost("add-role")]
@@ -124,5 +124,6 @@ namespace WebAPI.Controllers
 
             return BadRequest(result.Errors);
         }
+
     }
 }

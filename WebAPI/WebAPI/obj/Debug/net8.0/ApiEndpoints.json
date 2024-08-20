@@ -65,8 +65,18 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.AdminController",
-    "Method": "Get",
-    "RelativePath": "api/Admin",
+    "Method": "GetAdminData",
+    "RelativePath": "api/Admin/admin-only",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.AdminController",
+    "Method": "GetUserOrAdminData",
+    "RelativePath": "api/Admin/user-or-admin",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -380,6 +390,38 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.RoleManagementController",
+    "Method": "AddRole",
+    "RelativePath": "api/RoleManagement/add-role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Common.DTOs.CreateRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.RoleManagementController",
+    "Method": "AssignRole",
+    "RelativePath": "api/RoleManagement/assign-role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Common.DTOs.AssignRoleDto",
         "IsRequired": true
       }
     ],
