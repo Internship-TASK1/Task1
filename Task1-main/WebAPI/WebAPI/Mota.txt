@@ -1,0 +1,5 @@
+﻿- Đăng nhập , phân quyền 
+- Khi đăng nhập xong tạo 1 lớp để lưu thông tin đăng nhập , phục vụ cho việc thêm tên đăng nhập vào order , task
+- Sau đó khi order thì lấy dữ liệu đã đăng nhập để lưu vào order ( Tên người tạo order )
+- Một người quản lí ( người chuyền ) sẽ lấy dữ liệu từ order để tạo task . Task sẽ có dữ liệu từ orderDetail ,
+khi tạo task thì lấy tên đăng nhập hiện tại gắn vô task để biết ai là người tạo task.

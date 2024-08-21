@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\Task1-main\\Task1-main\\WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9061B385-7742-4844-83E0-C708DC5EABF7}|WebAPI\\WebAPI.csproj|c:\\users\\admin\\desktop\\task1-main\\task1-main\\webapi\\webapi\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9061B385-7742-4844-83E0-C708DC5EABF7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|c:\\users\\admin\\desktop\\task1-main\\task1-main\\webapi\\dal\\repositories\\jobsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\jobsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{274E0FD2-70BC-49B6-A49C-91ADA9429189}|BLL\\BLL.csproj|c:\\users\\admin\\desktop\\task1-main\\task1-main\\webapi\\bll\\services\\jobsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{274E0FD2-70BC-49B6-A49C-91ADA9429189}|BLL\\BLL.csproj|solutionrelative:bll\\services\\jobsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|c:\\users\\admin\\desktop\\task1-main\\task1-main\\webapi\\dal\\repositories\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62555F83-E26F-4740-9CAD-8179D75EDD9E}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{274E0FD2-70BC-49B6-A49C-91ADA9429189}|BLL\\BLL.csproj|c:\\users\\admin\\desktop\\task1-main\\task1-main\\webapi\\bll\\services\\ijobsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{274E0FD2-70BC-49B6-A49C-91ADA9429189}|BLL\\BLL.csproj|solutionrelative:bll\\services\\ijobsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7F0EA7-BB9F-4909-A07F-33BC04DF0AA3}|Common\\Common.csproj|c:\\users\\admin\\desktop\\task1-main\\task1-main\\webapi\\common\\dtos\\jobsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7F0EA7-BB9F-4909-A07F-33BC04DF0AA3}|Common\\Common.csproj|solutionrelative:common\\dtos\\jobsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\Task1-main\\Task1-main\\WebAPI\\DAL\\Repositories\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\OrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\Task1-main\\Task1-main\\WebAPI\\DAL\\Repositories\\OrderDetailRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\OrderDetailRepository.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAcwGQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T17:24:39.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\Task1-main\\Task1-main\\WebAPI\\DAL\\Repositories\\JobsRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\JobsRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\Task1-main\\Task1-main\\WebAPI\\DAL\\Repositories\\JobsRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\JobsRepository.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAYwEUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T17:19:30.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JobsModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\Task1-main\\Task1-main\\WebAPI\\Common\\DTOs\\JobsModel.cs",
+              "RelativeDocumentMoniker": "Common\\DTOs\\JobsModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\Task1-main\\Task1-main\\WebAPI\\Common\\DTOs\\JobsModel.cs",
+              "RelativeToolTip": "Common\\DTOs\\JobsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T17:03:54.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JobsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\Task1-main\\Task1-main\\WebAPI\\WebAPI\\Controllers\\JobsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\JobsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\Task1-main\\Task1-main\\WebAPI\\WebAPI\\Controllers\\JobsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\JobsController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAwwDkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T17:01:42.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobsService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\Task1-main\\Task1-main\\WebAPI\\BLL\\Services\\JobsService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\JobsService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\Task1-main\\Task1-main\\WebAPI\\BLL\\Services\\JobsService.cs",
+              "RelativeToolTip": "BLL\\Services\\JobsService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAkwC0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T16:26:33.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IJobsService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\Task1-main\\Task1-main\\WebAPI\\BLL\\Services\\IJobsService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\IJobsService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\Task1-main\\Task1-main\\WebAPI\\BLL\\Services\\IJobsService.cs",
+              "RelativeToolTip": "BLL\\Services\\IJobsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T16:26:03.751Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

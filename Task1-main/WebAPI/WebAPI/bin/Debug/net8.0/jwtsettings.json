@@ -1,0 +1,6 @@
+{
+  "Jwt": {
+    "Issuer": "localhost",
+    "Key": "123456"
+  }
+}
