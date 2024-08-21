@@ -1,4 +1,5 @@
 ﻿using BLL.Services;
+using Common.DTOs;
 using DAL.Entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -64,6 +65,10 @@ namespace WebAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<OrderDetail>> InserOrderDetail(Guid OrderID, Guid ProductId, int Quantity)
         {
+            if (UserTemp.Id == string.Empty && UserTemp.UserName == string.Empty)
+            {
+                return BadRequest("Vui long dang nhap");
+            }
             //tạo order detail
             var ordD = await orderDetailService.InserOrderDetail(OrderID, ProductId, Quantity);
 
