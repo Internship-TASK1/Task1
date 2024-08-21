@@ -50,7 +50,16 @@ namespace DAL.Repositories
 
         public async Task UpdateAsync(Product product)
         {
-            _context.Products.Update(product);
+            var existingProduct = await _context.Products.FindAsync(product.Id);
+            if (existingProduct != null)
+            {
+                _context.Entry(existingProduct).CurrentValues.SetValues(product);
+            }
+            else
+            {
+                _context.Products.Attach(product);
+                _context.Entry(product).State = EntityState.Modified;
+            }
             await _context.SaveChangesAsync();
         }
 

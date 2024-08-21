@@ -4505,25 +4505,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dquan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\TASK\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "D:\\Github\\Phát triển PM\\Task1\\WebAPI\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\ADMIN\\Desktop\\TASK\\WebAPI\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Desktop\\TASK\\WebAPI\\WebAPI\\obj\\",
+      "projectPath": "D:\\Github\\Phát triển PM\\Task1\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\dquan\\.nuget\\packages\\",
+      "outputPath": "D:\\Github\\Phát triển PM\\Task1\\WebAPI\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\dquan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4537,14 +4531,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ADMIN\\Desktop\\TASK\\WebAPI\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\Desktop\\TASK\\WebAPI\\BLL\\BLL.csproj"
+            "D:\\Github\\Phát triển PM\\Task1\\WebAPI\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\Github\\Phát triển PM\\Task1\\WebAPI\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\ADMIN\\Desktop\\TASK\\WebAPI\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\Desktop\\TASK\\WebAPI\\Common\\Common.csproj"
+            "D:\\Github\\Phát triển PM\\Task1\\WebAPI\\Common\\Common.csproj": {
+              "projectPath": "D:\\Github\\Phát triển PM\\Task1\\WebAPI\\Common\\Common.csproj"
             },
-            "C:\\Users\\ADMIN\\Desktop\\TASK\\WebAPI\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\Desktop\\TASK\\WebAPI\\DAL\\DAL.csproj"
+            "D:\\Github\\Phát triển PM\\Task1\\WebAPI\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\Github\\Phát triển PM\\Task1\\WebAPI\\DAL\\DAL.csproj"
             }
           }
         }
@@ -4610,7 +4604,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
