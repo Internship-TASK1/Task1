@@ -42,3 +42,4 @@ C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\Common\obj\Debug\net8.0\refi
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\Common\obj\Debug\net8.0\Common.pdb
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\Common\obj\Debug\net8.0\Common.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\Common\obj\Debug\net8.0\ref\Common.dll
+C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\Common\obj\Debug\net8.0\Common.sourcelink.json

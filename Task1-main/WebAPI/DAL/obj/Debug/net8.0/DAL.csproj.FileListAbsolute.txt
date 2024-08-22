@@ -51,3 +51,4 @@ C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\DAL\bin\Debug\net8.0\Common.
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\DAL\obj\Debug\net8.0\DAL.sourcelink.json
