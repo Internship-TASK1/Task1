@@ -1,0 +1,36 @@
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\bin\Debug\net8.0\DAL.dll
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\bin\Debug\net8.0\DAL.pdb
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\bin\Debug\net8.0\Common.dll
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\bin\Debug\net8.0\Common.pdb
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\obj\Debug\net8.0\DAL.dll
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\obj\Debug\net8.0\DAL.pdb
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+D:\Github\Phát triển PM\Task1\WebAPI\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\bin\Debug\net8.0\Common.dll
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\bin\Debug\net8.0\Common.pdb
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\TASK\WebAPI\DAL\obj\Debug\net8.0\ref\DAL.dll
