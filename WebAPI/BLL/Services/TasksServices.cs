@@ -8,7 +8,7 @@ using DAL.Repositories;
 
 namespace BLL.Services
 {
-    public class TasksServices
+    public class TasksServices : ITasksServices
     {
         private readonly ITasksRepositories _tasksRepositories;
 
