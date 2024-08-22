@@ -1,37 +1,50 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Common.DTOs;
+using DAL.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using DAL.Entities;
+
 namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class AccountController : ControllerBase
     {
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IConfiguration _configuration;
+        private readonly ILogger<AccountController> _logger; // Thêm dòng này
 
-        public AccountController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration)
+        public AccountController(
+            UserManager<ApplicationUser> userManager,
+            RoleManager<IdentityRole> roleManager,
+            IConfiguration configuration,
+            ILogger<AccountController> logger) // Cập nhật constructor
         {
             _userManager = userManager;
             _roleManager = roleManager;
             _configuration = configuration;
+            _logger = logger; // Khởi tạo biến _logger
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] Register model)
+        public async Task<IActionResult> Register([FromBody] RegisterDto model)
         {
-            var user = new IdentityUser { UserName = model.Username, Email = model.Email };
+            var user = new ApplicationUser
+            {
+                UserName = model.UserName,
+                FullName = model.FullName
+            };
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
             {
-                //await _userManager.AddToRoleAsync(user, "User");
+                // Có thể gán role mặc định nếu cần
+                // await _userManager.AddToRoleAsync(user, "User");
                 return Ok(new { message = "User registered successfully" });
             }
 
@@ -39,9 +52,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] Login model)
+        public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
-            var user = await _userManager.FindByNameAsync(model.Username);
+            var user = await _userManager.FindByNameAsync(model.UserName);
             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
             {
                 var userRoles = await _userManager.GetRolesAsync(user);
@@ -61,11 +74,26 @@ namespace WebAPI.Controllers
                     signingCredentials: new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!)),
                     SecurityAlgorithms.HmacSha256));
 
-                return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
+                var tokenHandler = new JwtSecurityTokenHandler();
+                var tokenString = tokenHandler.WriteToken(token);
+
+                // Lưu trữ IdUser ở Common
+                UserTemp.Id = user.Id;
+                UserTemp.UserName = user.UserName;
+
+
+                return Ok(new
+                {
+                    message = "Login successful",
+                    token = tokenString,
+                    roles = userRoles // Thêm quyền vào phản hồi
+                });
             }
 
-            return Unauthorized();
+            return Unauthorized(new { message = "Invalid username or password." });
         }
+
+
 
         [HttpPost("add-role")]
         public async Task<IActionResult> AddRole([FromBody] string role)
@@ -93,7 +121,6 @@ namespace WebAPI.Controllers
                 return BadRequest("User not found");
             }
 
-            // Proceed to assign role to user
             var result = await _userManager.AddToRoleAsync(user, model.Role);
             if (result.Succeeded)
             {
@@ -102,5 +129,6 @@ namespace WebAPI.Controllers
 
             return BadRequest(result.Errors);
         }
+
     }
 }

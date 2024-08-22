@@ -13,3 +13,18 @@ D:\Github\Phát triển PM\Task1\WebAPI\Common\obj\Debug\net8.0\refint\Common.dl
 D:\Github\Phát triển PM\Task1\WebAPI\Common\obj\Debug\net8.0\Common.pdb
 D:\Github\Phát triển PM\Task1\WebAPI\Common\obj\Debug\net8.0\Common.genruntimeconfig.cache
 D:\Github\Phát triển PM\Task1\WebAPI\Common\obj\Debug\net8.0\ref\Common.dll
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\bin\Debug\net8.0\Common.deps.json
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\bin\Debug\net8.0\Common.runtimeconfig.json
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\bin\Debug\net8.0\Common.dll
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\bin\Debug\net8.0\Common.pdb
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\obj\Debug\net8.0\Common.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\obj\Debug\net8.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\obj\Debug\net8.0\Common.sourcelink.json
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\obj\Debug\net8.0\Common.dll
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\obj\Debug\net8.0\refint\Common.dll
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\obj\Debug\net8.0\Common.pdb
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\obj\Debug\net8.0\Common.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\TASK\WebAPI\Common\obj\Debug\net8.0\ref\Common.dll

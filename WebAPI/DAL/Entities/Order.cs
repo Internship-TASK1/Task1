@@ -2,49 +2,38 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
     [Table("Orders")]
-
     public class Order
     {
-      
-            public Guid Id { get; set; }
+        public Guid Id { get; set; }
+        public string? CreatedByUserId { get; set; } // Updated from Guid to string
+        public string? ProcessedByUserId { get; set; } // Updated from Guid to string
+        public DateTimeOffset OrderDate { get; set; }
+        public string? CreatedBy { get; set; }
+        public string? LastUpdatedBy { get; set; }
+        public string? DeletedBy { get; set; }
+        public DateTimeOffset CreatedTime { get; set; }
+        public DateTimeOffset LastUpdatedTime { get; set; }
+        public DateTimeOffset? DeletedTime { get; set; }
 
-            [Required]
-            public Guid UserId { get; set; }
+        // Navigation properties
+        [ForeignKey("CreatedByUserId")]
+        public ApplicationUser? CreatedByUser { get; set; }
 
-            [Required]
-            public DateTimeOffset OrderDate { get; set; }
+        [ForeignKey("ProcessedByUserId")]
+        public ApplicationUser? ProcessedByUser { get; set; }
 
-            public string? CreatedBy { get; set; }
-            public string? LastUpdatedBy { get; set; }
-            public string? DeletedBy { get; set; }
-            public DateTimeOffset CreatedTime { get; set; }
-            public DateTimeOffset LastUpdatedTime { get; set; }
-            public DateTimeOffset? DeletedTime { get; set; }
+        // Foreign Key properties
+        public List<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
 
-            // Navigation properties
-            public User? CreatedByUser { get; set; }
-            public User? ProcessedByUser { get; set; }
-
-            // Foreign Key properties
-            public Guid? CreatedByUserId { get; set; }
-            public Guid? ProcessedByUserId { get; set; }
-
-            public List<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
-
-            public Order()
-            {
-                CreatedBy = string.Empty;
-                LastUpdatedBy = string.Empty;
-                DeletedBy = string.Empty;
-            }
+        public Order()
+        {
+            CreatedBy = string.Empty;
+            LastUpdatedBy = string.Empty;
+            DeletedBy = string.Empty;
         }
     }
-    
-
+}
