@@ -34,8 +34,9 @@ namespace BLL.Services
             {
                 Id = Guid.NewGuid(),
                 OrderDetailID = _job.OrderDetailID,
+                UserCreate = UserTemp.Id,
                 Deadline = _job.Deadline,
-                UserID = _job.UserID
+                User = _job.User
             };
 
             return _jobRepository.InsertJobs(jobs);
@@ -46,9 +47,10 @@ namespace BLL.Services
             Jobs jobs = new Jobs()
             {
                 Id = id,
+                UserCreate = UserTemp.Id,
                 OrderDetailID = _job.OrderDetailID,
                 Deadline = _job.Deadline,
-                UserID = _job.UserID
+                User = _job.User
             };
 
             return _jobRepository.UpdateJobs(jobs);

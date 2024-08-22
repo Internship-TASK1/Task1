@@ -434,7 +434,6 @@ C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\WebA
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfoInputs.cache
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfo.cs
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CoreCompileInputs.cache
-C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\staticwebassets.development.json
@@ -450,3 +449,5 @@ C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\refi
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.pdb
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
+C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json
+C:\Users\ADMIN\Desktop\Task1-main\Task1-main\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs

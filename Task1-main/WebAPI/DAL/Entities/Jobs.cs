@@ -13,15 +13,15 @@ namespace DAL.Entities
 
         public Guid OrderDetailID { get; set; }
 
-        public Guid UserID { get; set; }
+        public string User{ get; set; } = string.Empty;
+
+        [Required]
+        public string UserCreate { get; set; }
 
         public DateTimeOffset Deadline { get; set; }
 
         // Navigation properties (these can be left as they are)
         [ForeignKey("OrderDetailID")]
         public OrderDetail? OrderDetail { get; set; }
-
-        [ForeignKey("UserID")]
-        public User? User { get; set; }
     }
 }

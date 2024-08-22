@@ -167,14 +167,17 @@ namespace DAL.Migrations
                     b.Property<Guid>("OrderDetailID")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("UserID")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("User")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserCreate")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("OrderDetailID");
-
-                    b.HasIndex("UserID");
 
                     b.ToTable("Jobs");
                 });
@@ -212,21 +215,11 @@ namespace DAL.Migrations
                     b.Property<string>("ProcessedByUserId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<Guid?>("UserId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("UserId1")
-                        .HasColumnType("uniqueidentifier");
-
                     b.HasKey("Id");
 
                     b.HasIndex("CreatedByUserId");
 
                     b.HasIndex("ProcessedByUserId");
-
-                    b.HasIndex("UserId");
-
-                    b.HasIndex("UserId1");
 
                     b.ToTable("Orders");
                 });
@@ -319,56 +312,6 @@ namespace DAL.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
-                });
-
-            modelBuilder.Entity("DAL.Entities.User", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Bank")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("BankAccount")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("BankAccountName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CreatedBy")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTimeOffset>("CreatedTime")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<string>("DeletedBy")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTimeOffset?>("DeletedTime")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<string>("FullName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LastUpdatedBy")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTimeOffset>("LastUpdatedTime")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<string>("PasswordHash")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("UserName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -512,15 +455,7 @@ namespace DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DAL.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("OrderDetail");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("DAL.Entities.Order", b =>
@@ -534,14 +469,6 @@ namespace DAL.Migrations
                         .WithMany("ProcessedOrders")
                         .HasForeignKey("ProcessedByUserId")
                         .OnDelete(DeleteBehavior.SetNull);
-
-                    b.HasOne("DAL.Entities.User", null)
-                        .WithMany("CreatedOrders")
-                        .HasForeignKey("UserId");
-
-                    b.HasOne("DAL.Entities.User", null)
-                        .WithMany("ProcessedOrders")
-                        .HasForeignKey("UserId1");
 
                     b.Navigation("CreatedByUser");
 
@@ -637,13 +564,6 @@ namespace DAL.Migrations
             modelBuilder.Entity("DAL.Entities.Order", b =>
                 {
                     b.Navigation("OrderDetails");
-                });
-
-            modelBuilder.Entity("DAL.Entities.User", b =>
-                {
-                    b.Navigation("CreatedOrders");
-
-                    b.Navigation("ProcessedOrders");
                 });
 #pragma warning restore 612, 618
         }

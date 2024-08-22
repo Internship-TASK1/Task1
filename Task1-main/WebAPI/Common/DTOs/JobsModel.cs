@@ -10,14 +10,8 @@ namespace Common.DTOs
     {
         public Guid OrderDetailID { get; set; }
 
-        public Guid UserID { get; set; }
+        public string User { get; set; } = string.Empty;
 
         public DateTimeOffset Deadline { get; set; }
-
-        public JobsModel( Guid UserID, DateTimeOffset Deadline) {
-            this.OrderDetailID = OrderDetailID;
-            this.UserID = UserID;
-            this.Deadline = Deadline;
-        }
     }
 }
