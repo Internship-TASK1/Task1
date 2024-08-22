@@ -18,6 +18,8 @@ builder.Services.AddDbContext<MyDbContext>(options =>
 // Đăng ký các dịch vụ khác
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ITasksRepositories, TasksRepository>();
+builder.Services.AddScoped<ITasksServices, TasksServices>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IOrderDetailRepository, OrderDetailRepository>();
