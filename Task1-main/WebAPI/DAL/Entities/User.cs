@@ -30,6 +30,7 @@ namespace DAL.Entities
         public virtual ICollection<Order> CreatedOrders { get; set; } = new List<Order>();
         public virtual ICollection<Order> ProcessedOrders { get; set; } = new List<Order>();
 
-
+        public virtual ICollection<Tasks> CreatedTasks { get; set; } = new List<Tasks>();
+        public virtual ICollection<Tasks> AssignedTasks { get; set; } = new List<Tasks>();
     }
 }
