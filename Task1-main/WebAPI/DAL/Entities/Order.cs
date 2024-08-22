@@ -32,5 +32,7 @@ namespace DAL.Entities
             LastUpdatedBy = string.Empty;
             DeletedBy = string.Empty;
         }
+
+        public virtual ICollection<Tasks> Tasks { get; set; } = new List<Tasks>();
     }
 }
